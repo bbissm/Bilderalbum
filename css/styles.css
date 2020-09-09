@@ -1,0 +1,101 @@
+/* CSS Document */
+
+body { font-family: Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#000000; line-height:20px; margin:0 }
+
+.wb { color:#FFFFFF; font-weight:bold }
+.wb10 { color:#16BD55; font-weight:bold; font-size:10px }
+
+.header {background-color: #282828; text-align: center; padding: 3%; color: #16BD55; font-size: 30px;}
+.footer {background-color: #282828; text-align: center}
+.login {margin:auto; padding: 2%; width: 300px;}
+.register {margin:auto; padding: 2%; width: 300px;}
+
+td.nav { background-color: white;
+ }
+table, th, td { border: 0px solid black; }
+table.top { background-color: #ffffff }
+table.table_menu { width: 192px; border-spacing: 1px }
+table.table_menu th { background-color: #282828; color: #16BD55; text-align: center }
+table.table_menu td { padding: 0px; color: #16BD55;}
+
+form { margin:0 }
+.label { color:#000000; font-weight:bold }
+.fehler { color: red; font-weight:bold; padding-left: 5px }
+.meldung { color: #550000; font-weight:bold; padding-left: 5px }
+
+input.txt, select { background-color: #dddddd; color:#000000 }
+input.err { background-color:#ff8888; color:#000000 }
+
+.bild{width: 100px;}
+.bild img{width: 100%; height: auto; cursor: pointer;}
+
+.full
+{
+   position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.8);
+    text-align: center;
+}
+
+.fulltable{
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.fullinner{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+a:link, a:visited {
+	font-size: 12px;
+	font-weight: bold;	
+	color:#990000;
+	text-decoration: none;	
+}
+a:hover, a:active {
+	font-size: 12px;
+	font-weight: bold;	
+	color:#ff6600;
+	text-decoration: none;	
+}
+a.link_menu:link, a.link_menu:visited {
+    display: block;
+	background-color: #282828;
+	vertical-align: middle;
+	font-size: 11px;
+	font-weight: bold;	
+	color:#16BD55;
+	text-decoration: none;	
+	text-align: left;
+	padding-top: 2px;
+	padding-left: 20px;
+	height: 23px;
+	width: 171px;
+}
+a.link_menu:hover {
+    display: block;
+	background-color: #16BD55;
+	color:#282828;
+	font-weight: bold;
+}
+a.link_menu#active {
+    display: block;
+	background-color: #16BD55;
+	color:#282828;
+	font-weight: bold;
+}
+a.meta_menu:link, a.meta_menu:visited {
+  color: #999999;
+  font-weight:bold;
+  text-decoration: none;
+}
+a.meta_menu:hover, a.meta_menu:active {
+  color: #ffffff;
+  font-weight:bold;
+  text-decoration: none;
+}
